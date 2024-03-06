@@ -4,4 +4,4 @@ function Calc(props){
     let res=x*y;
     return(<div>Result is: {res}</div>)
 }
-export default Calc
+export default Calc 

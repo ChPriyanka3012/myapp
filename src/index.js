@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-/*import Calc from './Calc';*/
-/*import App1 from './App1';*/
-/*import Result from './Result';
+import UseState from './UseState';
+/*import Calc from './Calc';
+import App1 from './App1';
+import Result from './Result';
 import App2 from './App2';
 import Array from './Array';
 import Objects from './Objects';
@@ -11,19 +12,27 @@ import Callback from './Callback';
 import Map from './Map';
 import './index.css';
 import Estoreheader from './Estoreheader';
-import Block from './Block';*/
+import Block from './Block';
 import ButtonEvent  from './ButtonEvent';
-
+import Spread1 from './SpreadObject';
+import SpreadArrayPush from './SpreadArray';*/
+import UseStatefunc from './UseState';
+import UseEffectfunc from './UseEffect';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ButtonEvent />
+  //<React.StrictMode>
+    <UseStatefunc/>
    
-  </React.StrictMode>
+ // </React.StrictMode>
 );
 /*<Calc num1={2} num2={1} /> //multiply the number
 <Estoreheader/>
+  <ButtonEvent />
+   <UseEffectfunc/>
     <Block/>
+    <SpreadArrayPush/>
+    <App1 name="Sandy" age={}/> // for passing the props 
+    
 <Callback/> //to print the callback function
 <Objects students={{name:"Sandy",age:1} }/> ///for printing the objects
 // <Array names={["Sandy","Ruby","Maggie"]} score={[50,20,40]}/> //for printing the array
