@@ -7,7 +7,7 @@ export default function UseStatefunc(){
     if(wickets>0){
         console.log("hi hello")
     }
-    else{
+    else if(runs>0){
         console.log("good evening")
     }
     return(

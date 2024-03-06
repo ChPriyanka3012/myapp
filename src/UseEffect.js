@@ -7,6 +7,7 @@ export default function UseEffectfunc(){
     useEffect(()=>{
         console.log("Better luck next time");
     },[wickets]);
+    
     return(
         <>
         <button onClick={()=>setRuns((prevState)=>prevState+1)}>Runs({runs})</button>
