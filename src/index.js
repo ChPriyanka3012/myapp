@@ -23,18 +23,22 @@ import Usememo from './UseMemo';
 import App13 from './Createcontext';
 
 import App12 from './ComplexFunction';
-import App13 from './Studentdetails';*/
+import App13 from './Studentdetails';
 import App14 from './AccessElements';
 import App from './App';
+import Icons from './Icons';*/
+import App15 from './App15';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
-   <App />
+ <App15/>
+
   
   // </React.StrictMode>
 );
 /*<Calc num1={2} num2={1} /> //multiply the number
 < Memo/>
+  <Icons />
 <Estoreheader/>
   <ButtonEvent />
    <UseStatefunc/>
