@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 /*import Calc from './Calc';
-import UseState from './UseState';
 import App1 from './App1';
+import UseState from './UseState';
 import Result from './Result';
 import App2 from './App2';
 import Array from './Array';
@@ -21,30 +21,21 @@ import UseStatefunc from './UseState';
 import UseEffectfunc from './UseEffect';
 import Memo  from './Memousingexcomp';
 import Usememo from './UseMemo';
-import App13 from './Createcontext';
-
-import App12 from './ComplexFunction';
-import App13 from './Studentdetails';
-import App14 from './AccessElements';
-import App from './App';
-import Icons from './Icons';
-import App16 from './App16';*/
+import App13 from './Createcontext';*/
 import App from './Sitelogin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
- <App />
- 
+   <App />
+  
   // </React.StrictMode>
 );
 /*<Calc num1={2} num2={1} /> //multiply the number
-
-  <Icons />
+< Memo/>
 <Estoreheader/>
   <ButtonEvent />
    <UseStatefunc/>
    <UseEffectfunc/>
-
     <Block/>
     <SpreadArrayPush/>
     <App1 name="Sandy" age={}/> // for passing the props 
