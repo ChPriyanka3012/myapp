@@ -28,22 +28,22 @@ import App14 from './AccessElements';
 import App from './App';
 import Icons from './Icons';
 import App16 from './App16';*/
-import App from './Sitelogin';
+import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
- <App/>
-
-  
+ <App />
+ 
   // </React.StrictMode>
 );
 /*<Calc num1={2} num2={1} /> //multiply the number
-< Memo/>
+
   <Icons />
 <Estoreheader/>
   <ButtonEvent />
    <UseStatefunc/>
    <UseEffectfunc/>
+
     <Block/>
     <SpreadArrayPush/>
     <App1 name="Sandy" age={}/> // for passing the props 
