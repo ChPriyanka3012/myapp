@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import UseState from './UseState';
+
 /*import Calc from './Calc';
 import App1 from './App1';
+import UseState from './UseState';
 import Result from './Result';
 import App2 from './App2';
 import Array from './Array';
