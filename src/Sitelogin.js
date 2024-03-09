@@ -6,15 +6,15 @@ function App() {
   const [password, setPassword] = useState('');
   const [loginStatus, setLoginStatus] = useState('');
 
-  const handleNameChange = (e) => {
+  const NameChange = (e) => {
     setName(e.target.value);
   };
 
-  const handlePasswordChange = (e) => {
+  const PasswordChange = (e) => {
     setPassword(e.target.value);
   };
 
-  const handleLogin = () => {
+  const Login = () => {
     if (name === 'priya' && password === 'sandy123') {
       setLoginStatus('Success');
     } else {
@@ -24,14 +24,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Login</h1>
+      <h1>Login Page</h1>
       <div>
-        Name:<input type="text" value={name} onChange={handleNameChange} />
+        Name:<input type="text" value={name} onChange={NameChange} />
       </div>
       <div>
-         Password:<input type="password" value={password} onChange={handlePasswordChange} />
+         Password:<input type="password" value={password} onChange={PasswordChange} />
       </div>
-      <button onClick={handleLogin}>Login</button>
+      <button onClick={Login}>Login</button>
       <p>{loginStatus}</p>
     </div>
   );
