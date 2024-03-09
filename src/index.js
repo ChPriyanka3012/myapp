@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import UseState from './UseState';
+
 /*import Calc from './Calc';
+import UseState from './UseState';
 import App1 from './App1';
 import Result from './Result';
 import App2 from './App2';
