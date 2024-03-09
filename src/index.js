@@ -22,7 +22,7 @@ import UseEffectfunc from './UseEffect';
 import Memo  from './Memousingexcomp';
 import Usememo from './UseMemo';
 import App13 from './Createcontext';*/
-import App from './Sitelogin';
+import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
