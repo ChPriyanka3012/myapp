@@ -15,19 +15,25 @@ import Estoreheader from './Estoreheader';
 import Block from './Block';
 import ButtonEvent  from './ButtonEvent';
 import Spread1 from './SpreadObject';
-import SpreadArrayPush from './SpreadArray';*/
+import SpreadArrayPush from './SpreadArray';
 import UseStatefunc from './UseState';
 import UseEffectfunc from './UseEffect';
+import Memo  from './Memousingexcomp';
+import Usememo from './UseMemo';
+import App13 from './Createcontext';*/
+import App from './Sitelogin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
-    <UseStatefunc/>
-   
- // </React.StrictMode>
+   <App />
+  
+  // </React.StrictMode>
 );
 /*<Calc num1={2} num2={1} /> //multiply the number
+< Memo/>
 <Estoreheader/>
   <ButtonEvent />
+   <UseStatefunc/>
    <UseEffectfunc/>
     <Block/>
     <SpreadArrayPush/>
