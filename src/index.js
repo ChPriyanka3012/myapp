@@ -21,12 +21,15 @@ import UseStatefunc from './UseState';
 import UseEffectfunc from './UseEffect';
 import Memo  from './Memousingexcomp';
 import Usememo from './UseMemo';
-import App13 from './Createcontext';*/
 import App from './App';
+import App13 from './Studentdetails';
+import App19 from './App19';*/
+
+import RouterExp from './Router';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
-   <App />
+   <RouterExp/>
   
   // </React.StrictMode>
 );
