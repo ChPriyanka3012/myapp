@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+
 /*import Calc from './Calc';
 import App1 from './App1';
 import UseState from './UseState';
@@ -17,19 +18,28 @@ import Block from './Block';
 import ButtonEvent  from './ButtonEvent';
 import Spread1 from './SpreadObject';
 import SpreadArrayPush from './SpreadArray';
-import UseStatefunc from './UseState';
-import UseEffectfunc from './UseEffect';
+
+
 import Memo  from './Memousingexcomp';
 import Usememo from './UseMemo';
 import App from './App';
 import App13 from './Studentdetails';
-import App19 from './App19';*/
-
+import App19 from './App19';
 import RouterExp from './Router';
+import Envariables from './Envariables';
+import Usereducer from './Usereducer';
+import UseStatefunc from './UseState';
+import UseEffectfunc from './UseEffect';
+import App13 from './App13'
+import App26 from './UseRef2';*/
+
+import App29 from './Api3';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
-   <RouterExp/>
+ <App29/>
   
   // </React.StrictMode>
 );
@@ -37,8 +47,11 @@ root.render(
 < Memo/>
 <Estoreheader/>
   <ButtonEvent />
-   <UseStatefunc/>
    <UseEffectfunc/>
+  <Envariables/>
+   <UseStatefunc/>
+   <Usereducer/>
+  
     <Block/>
     <SpreadArrayPush/>
     <App1 name="Sandy" age={}/> // for passing the props 
